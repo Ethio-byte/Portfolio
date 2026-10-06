@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Tamirat Dalasa is a Software Developer focused on building modern, scalable, and user-friendly applications through clean code, thoughtful design, and continuous learning." />
+    <meta name="author" content="Tamirat Dalasa" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#f4f3ef" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- [YOUR DOMAIN] add after deploying, then uncomment:
+    <link rel="canonical" href="https://[YOUR DOMAIN]/" /> -->
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Tamirat Dalasa" />
+    <meta property="og:title" content="Tamirat Dalasa | Software Developer" />
+    <meta property="og:description" content="Software Developer building modern, scalable, and user-friendly applications. Experience, selected projects, and contact." />
+    <!-- [YOUR DOMAIN] share URL (also used by the JSON-LD block below) -->
+    <meta property="og:url" content="index.html" />
+    <!-- [OG IMAGE] add a 1200x630 share image, then uncomment:
+    <meta property="og:image" content="assets/og-image.jpg" /> -->
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Tamirat Dalasa | Software Developer" />
+    <meta name="twitter:description" content="Software Developer building modern, scalable, and user-friendly applications." />
+
+    <title>Tamirat Dalasa | Software Developer</title>
+
+    <!-- [FAVICON] add a favicon file, then uncomment:
+    <link rel="icon" href="assets/favicon.jpg" /> -->
+
+    <!-- Typography: Hanken Grotesk (body/UI) + Source Serif 4 (display headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400..800;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+
+    <!-- Structured data: helps search engines understand the page -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tamirat Dalasa",
+        "jobTitle": "Software Developer",
+        "email": "mailto:rastamrat402@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dire Dawa",
+          "addressCountry": "ET"
+        },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Dire Dawa University" },
+        "sameAs": ["https://github.com/Ethio-byte"]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ======================== HEADER / STICKY NAVBAR ======================== -->
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#home" aria-label="Tamirat Dalasa, home">TD<span>.</span></a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#writing">Writing</a>
+      </nav>
+
+      <a class="header-cta button button-dark" href="#contact">
+        <span>Let's talk</span><span aria-hidden="true">&#8599;</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <!-- Navigation shown when JavaScript is disabled -->
+    <noscript>
+      <style>.menu-button { display: none !important; }</style>
+      <nav class="noscript-nav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </noscript>
+
+    <!-- Mobile hamburger menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="mobile-menu-footer">
+        <!-- [EMAIL] your email address (used in 4 places, search for rastamrat402@gmail.com) -->
+        <a href="mailto:rastamrat402@gmail.com">rastamrat402@gmail.com</a>
+        <p>Dire Dawa, Ethiopia</p>
+      </div>
+    </div>
+
+    <main id="main">
+      <!-- ================================ HERO ================================ -->
+      <section class="hero page-shell" id="home">
+        <p class="eyebrow reveal">Software Developer &middot; Web, Backend &amp; Mobile</p>
+
+        <!-- Headline: first line, then the blue accent line -->
+        <h1 class="hero-title reveal">I build modern, scalable,<span>and user-friendly applications.</span></h1>
+
+        <div class="hero-bottom reveal">
+          <p class="hero-intro">
+            I'm a Software Developer focused on building modern, scalable, and user-friendly
+            applications. I turn ideas into practical digital solutions through clean code,
+            thoughtful design, and continuous learning.
+          </p>
+          <div class="hero-cta">
+            <a class="button button-dark" href="#projects"><span>View My Work</span><span aria-hidden="true">&darr;</span></a>
+            <a class="button button-outline" href="#contact"><span>Contact Me</span><span aria-hidden="true">&#8599;</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <!-- [PHOTO] OPTIONAL: replace this whole <figure> with your portrait:
+               <figure class="portrait-wrap">
+                 <img src="assets/profile.jpg" alt="Portrait of Tamirat Dalasa" width="1200" height="1200" />
+               </figure>
+               See README -> "Adding your photo". -->
+          <figure class="portrait-wrap">
+            <div class="portrait-placeholder" aria-hidden="true"><span>TD</span></div>
+          </figure>
+
+          <div class="hero-statement">
+            <p class="current-label"><span aria-hidden="true"></span>Currently</p>
+            <div class="hero-role">
+              <strong>Software Engineering Student<br />at Dire Dawa University</strong>
+              <span class="local-time">
+                <span class="sr-only">Local time in Dire Dawa: </span>
+                <span aria-hidden="true">Dire Dawa &middot; </span>
+                <time data-local-time>EAT</time>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== EXPERIENCE & EDUCATION ==================== -->
+      <section class="experience page-shell section-space" id="experience">
+        <div class="section-heading reveal">
+          <p class="section-label">Experience &amp; education</p>
+          <!-- [EDITABLE] heading written for you -->
+          <h2>Learning by building, step by step.</h2>
+        </div>
+
+        <div class="timeline">
+          <!-- Item 1 = featured (dark) row. DUPLICATE an <article class="timeline-row"> to add more. -->
+          <article class="timeline-row reveal">
+            <p><time>2024</time>&ndash;Present</p>
+            <div>
+              <h3>Freelance Software Developer</h3>
+              <!-- If the company has a website, swap the span for:
+              <a href="[COMPANY URL]" target="_blank" rel="noreferrer">[COMPANY] &middot; [LOCATION] &#8599;</a> -->
+              <span>Self-employed &middot; Dire Dawa, Ethiopia</span>
+              <p>Design and build web and mobile applications for local clients and small
+                businesses &mdash; from requirements and UI design through deployment.</p>
+            </div>
+          </article>
+
+          <!-- Item 2 -->
+          <article class="timeline-row reveal">
+            <p><time>2023</time>&ndash;<time>2024</time></p>
+            <div>
+              <h3>Web Development Intern</h3>
+              <span>Demo Tech Studio &middot; Dire Dawa, Ethiopia</span>
+              <p>Built landing pages and internal admin dashboards, fixed cross-browser UI
+                issues, and learned how real teams ship software on deadlines.</p>
+            </div>
+          </article>
+
+          <!-- Item 3 = education -->
+          <article class="timeline-row reveal">
+            <p><time>2023</time>&ndash;<time>2027</time></p>
+            <div>
+              <h3>BSc in Software Engineering (in progress)</h3>
+              <span>Dire Dawa University</span>
+              <p>Focus on web engineering, databases, and mobile development; course projects
+                in Java, C++, data structures, and Flutter.</p>
+            </div>
+          </article>
+
+          <!-- Item 4 = education -->
+          <article class="timeline-row reveal">
+            <p><time>2022</time></p>
+            <div>
+              <h3>Grade 12 High School Completion Certificate</h3>
+              <span>Dire Dawa Senior Secondary School</span>
+              <p>Graduated with a strong focus on mathematics, physics, and computer science.</p>
+            </div>
+          </article>
+
+          <!--
+            ==================== CERTIFICATIONS ====================
+            Hidden until you need it. Delete the comment slashes around
+            the <article> below, fill in the [BRACKETS], and duplicate
+            the block for each extra certification.
+          <article class="timeline-row reveal">
+            <p><time>[YEAR]</time></p>
+            <div>
+              <h3>[CERT NAME]</h3>
+              <span>[ISSUER]</span>
+              <p>[Optional: one line about what the certification covers.]</p>
+              <a href="[CERTIFICATE LINK]" target="_blank" rel="noreferrer">View certificate &#8599;</a>
+            </div>
+          </article>
+          -->
+        </div>
+      </section>
+
+      <!-- ========================= SELECTED PROJECTS ========================= -->
+      <section class="projects section-space" id="projects" aria-labelledby="projects-title">
+        <div class="page-shell">
+          <div class="projects-heading">
+            <p class="projects-label">Selected projects</p>
+            <div>
+              <!-- [EDITABLE] heading written for you -->
+              <h2 id="projects-title">From ideas to working software.</h2>
+              <p>
+                Professional work and personal experiments &mdash; a closer look at the problems
+                I work on, and the parts I build.
+              </p>
+            </div>
+          </div>
+
+          <!-- ---------- Sub-section 1: professional work ---------- -->
+          <div class="project-group-heading">
+            <h3>Professional Work</h3>
+            <!-- [EDITABLE] note under the sub-heading -->
+            <p>Built for teams, clients, and real users</p>
+          </div>
+
+          <div class="project-list">
+            <!-- Project 1 - DUPLICATE this <article> to add another professional project -->
+            <article class="project-card reveal" id="project-professional-1">
+              <div class="project-card-head">
+                <p class="project-meta">
+                  <span class="project-status">Live</span>
+                  <span><time>2025</time>&ndash;Present</span>
+                  <span>Full-stack development</span>
+                </p>
+                <h4>Community Clinic Booking System</h4>
+                <a class="project-link" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
+                  <span class="project-link-label">Visit project</span> <span aria-hidden="true">&#8599;</span>
+                </a>
+                <!-- No link? Remove the <a> above and uncomment:
+                <p class="project-private">No public link</p> -->
+              </div>
+              <div class="project-card-body">
+                <p class="project-description">
+                  A web app that lets patients book clinic appointments online while staff
+                  manage schedules, doctors, and patient records from one dashboard &mdash;
+                  replacing paper queues with a simple, searchable system.
+                </p>
+                <ul class="tech-stack" aria-label="Tech stack">
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li>
+                </ul>
+                <details class="project-details">
+                  <summary>My contribution <span aria-hidden="true">+</span></summary>
+                  <p>Designed the database schema, built the booking flow and admin
+                    dashboard end-to-end, and deployed the app for a local clinic pilot.</p>
+                </details>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card reveal" id="project-professional-2">
+              <div class="project-card-head">
+                <p class="project-meta">
+                  <span><time>2025</time></span>
+                  <span>Frontend development</span>
+                </p>
+                <h4>Local Business Landing Page</h4>
+                <!-- This card shows the "no public link" state - swap it for a real <a> when you have a URL -->
+                <p class="project-private">No public link</p>
+              </div>
+              <div class="project-card-body">
+                <p class="project-description">
+                  A fast, mobile-first marketing site for a local business, with a services
+                  catalogue, photo gallery, and a contact form that reaches the owner directly.
+                </p>
+                <ul class="tech-stack" aria-label="Tech stack">
+                  <li>HTML</li><li>CSS</li><li>JavaScript</li>
+                </ul>
+                <details class="project-details">
+                  <summary>My contribution <span aria-hidden="true">+</span></summary>
+                  <p>Owned the full build: responsive layout, accessibility passes, form
+                    handling, and handing the site over with edit instructions.</p>
+                </details>
+              </div>
+            </article>
+          </div>
+
+          <!-- ---------- Sub-section 2: personal projects ---------- -->
+          <div class="project-group-heading project-personal-heading">
+            <h3>Personal Projects &amp; Explorations</h3>
+            <!-- [EDITABLE] note under the sub-heading -->
+            <p>Built on my own, with public code</p>
+          </div>
+
+          <div class="tools-grid">
+            <!-- Personal project 1 - DUPLICATE this <article> to add another -->
+            <article class="project-tool reveal" id="project-personal-1">
+              <p class="project-meta">
+                <span><time>2025</time></span>
+                <span>Personal project</span>
+              </p>
+              <h4>TaskFlow Mobile App</h4>
+              <p class="project-description">
+                A cross-platform task manager with offline support, reminders, and
+                project boards &mdash; built to learn Flutter, state management, and
+                syncing data with a cloud backend.
+              </p>
+              <ul class="tech-stack" aria-label="Tech stack">
+                <li>Flutter</li><li>Dart</li><li>Supabase</li>
+              </ul>
+              <div class="project-actions">
+                <a class="project-link" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
+                  <span class="project-link-label">View repository</span> <span aria-hidden="true">&#8599;</span>
+                </a>
+              </div>
+              <details class="project-details">
+                <summary>My contribution <span aria-hidden="true">+</span></summary>
+                <p>Designed the UI, implemented authentication and the offline-first data
+                  layer, and published test builds for Android and iOS.</p>
+              </details>
+            </article>
+
+            <!-- Personal project 2 -->
+            <article class="project-tool reveal" id="project-personal-2">
+              <p class="project-meta">
+                <span class="project-status">Open source</span>
+                <span><time>2024</time></span>
+                <span>Learning project</span>
+              </p>
+              <h4>Dev Tools CLI</h4>
+              <p class="project-description">
+                A small command-line tool that scaffolds projects, runs common scripts, and
+                keeps config files consistent &mdash; written to get comfortable with Node.js,
+                file handling, and packaging a release.
+              </p>
+              <ul class="tech-stack" aria-label="Tech stack">
+                <li>Node.js</li><li>JavaScript</li><li>Docker</li>
+              </ul>
+              <div class="project-actions">
+                <a class="project-link" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
+                  <span class="project-link-label">View repository</span> <span aria-hidden="true">&#8599;</span>
+                </a>
+              </div>
+              <details class="project-details">
+                <summary>My contribution <span aria-hidden="true">+</span></summary>
+                <p>Wrote the CLI commands and argument parsing, added tests, and wrote the
+                  README and usage examples for first-time contributors.</p>
+              </details>
+            </article>
+          </div>
+
+          <div class="projects-footer">
+            <p>More experiments and source code on GitHub.</p>
+            <!-- https://github.com/Ethio-byte -->
+            <a class="project-link" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
+              <span class="project-link-label">Browse all repositories</span> <span aria-hidden="true">&#8599;</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================ CAPABILITIES ============================ -->
+      <section class="skills section-light section-space" id="capabilities">
+        <div class="page-shell">
+          <div class="section-heading reveal">
+            <p class="section-label">Capabilities</p>
+            <!-- [EDITABLE] heading written for you -->
+            <h2>The stack behind what I build.</h2>
+          </div>
+
+          <!-- Skill cards - DUPLICATE an <article class="skill-card"> to add another group -->
+          <div class="skill-grid">
+            <article class="skill-card reveal">
+              <h3>Frontend Development</h3>
+              <p>HTML &middot; CSS &middot; JavaScript &middot; TypeScript</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Backend Development</h3>
+              <p>Node.js &middot; Express.js &middot; PHP</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Mobile Development</h3>
+              <p>Flutter &mdash; cross-platform app development</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Databases &amp; Backend Services</h3>
+              <p>MySQL &middot; Supabase</p>
+            </article>
+            <article class="skill-card reveal">
+              <h3>Languages &amp; DevOps Tools</h3>
+              <p>Java &middot; C++ &middot; Docker</p>
+            </article>
+          </div>
+
+          <div class="skill-notes reveal">
+            <p>Also experienced with REST APIs, Git, and problem-solving.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= ENGINEERING APPROACH ======================= -->
+      <section class="about section-dark section-space" id="approach">
+        <div class="page-shell">
+          <div class="section-heading reveal">
+            <p class="section-label">Engineering approach</p>
+            <!-- [EDITABLE] heading written for you -->
+            <h2>Purpose before code.</h2>
+          </div>
+
+          <div class="about-grid">
+            <blockquote class="about-lead reveal">
+              I believe great software starts with understanding the problem before writing the
+              code. I focus on building solutions that are simple, scalable, maintainable, and
+              useful to real users. I value clean architecture, thoughtful design, continuous
+              learning, and solving problems with purpose&mdash;not just writing code.
+            </blockquote>
+
+            <div class="about-copy reveal">
+              <p>I start by sketching the flow before opening the editor, ship the smallest
+                usable version early, and improve it with feedback. I keep code readable,
+                document the decisions that matter, and treat every project as a chance to
+                learn something new.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================== WRITING ==============================
+           TO HIDE THIS SECTION: delete everything between the comment above
+           and the "WRITING:END" comment below (nav links point at #writing,
+           so also remove those three <a href="#writing"> links).
+           ================================================================== -->
+      <!-- WRITING:START -->
+      <section class="writing page-shell section-space" id="writing">
+        <div class="section-heading reveal">
+          <p class="section-label">Recent writing</p>
+          <h2>Ideas from Behind the Build.</h2>
+        </div>
+
+        <div class="blog-grid">
+          <!-- Article 1 = featured (dark) card - DUPLICATE an <a class="blog-card"> to add more -->
+          <a class="blog-card reveal" href="https://dev.to/" target="_blank" rel="noreferrer">
+            <p>Web Development &middot; <time datetime="2025-09">Sep 2025</time></p>
+            <h3>Writing Clean JavaScript Without a Framework</h3>
+            <div>
+              <span>How I structure small vanilla JS projects so they stay easy to change.</span>
+              <strong aria-hidden="true">&#8599;</strong>
+            </div>
+          </a>
+
+          <!-- Article 2 -->
+          <a class="blog-card reveal" href="https://dev.to/" target="_blank" rel="noreferrer">
+            <p>Mobile &middot; <time datetime="2025-07">Jul 2025</time></p>
+            <h3>Building My First Cross-Platform App with Flutter</h3>
+            <div>
+              <span>The mistakes I made, the parts that clicked, and what I would do differently.</span>
+              <strong aria-hidden="true">&#8599;</strong>
+            </div>
+          </a>
+
+          <!-- Article 3 -->
+          <a class="blog-card reveal" href="https://dev.to/" target="_blank" rel="noreferrer">
+            <p>Databases &middot; <time datetime="2025-05">May 2025</time></p>
+            <h3>MySQL Basics: What I Learned Shipping My First CRUD App</h3>
+            <div>
+              <span>Schema design, queries, and the security details beginners usually miss.</span>
+              <strong aria-hidden="true">&#8599;</strong>
+            </div>
+          </a>
+        </div>
+
+        <!-- DEMO link: replace with your blog / publication home page -->
+        <a class="button button-dark section-button reveal" href="https://dev.to/" target="_blank" rel="noreferrer">
+          <span>Read more articles</span><span aria-hidden="true">&#8599;</span>
+        </a>
+      </section>
+      <!-- WRITING:END -->
+
+      <!-- ============================== CONNECT ============================== -->
+      <section class="connect section-dark section-space" id="connect">
+        <div class="page-shell">
+          <div class="connect-heading reveal">
+            <p class="section-label">Connect with me</p>
+            <h2>Where to find me.</h2>
+            <!-- [EDITABLE] short line under the heading -->
+            <p>Repositories, updates, and easy ways to reach me.</p>
+          </div>
+
+          <div class="connect-grid connect-grid-primary">
+            <a class="connect-link reveal" href="mailto:rastamrat402@gmail.com">
+              <div><strong>Email</strong><small>Start a conversation</small></div><i aria-hidden="true">&#8599;</i>
+            </a>
+            <!-- https://github.com/Ethio-byte -->
+            <a class="connect-link reveal" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
+              <div><strong>GitHub</strong><small>Code and repositories</small></div><i aria-hidden="true">&#8599;</i>
+            </a>
+            <!-- DEMO: replace with your real LinkedIn profile URL -->
+            <a class="connect-link reveal" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              <div><strong>LinkedIn</strong><small>Professional profile</small></div><i aria-hidden="true">&#8599;</i>
+            </a>
+            <!-- DEMO: replace with your real Twitter / X URL -->
+            <a class="connect-link reveal" href="https://x.com/" target="_blank" rel="noreferrer">
+              <div><strong>Twitter / X</strong><small>Updates and thoughts</small></div><i aria-hidden="true">&#8599;</i>
+            </a>
+          </div>
+
+          <!-- Extra links.
+               Delete this whole <details> block if you do not need it,
+               or duplicate an <a class="connect-link"> inside for more. -->
+          <details class="connect-more reveal">
+            <summary><span>More places</span><small>1 link</small></summary>
+            <div class="connect-grid">
+              <a class="connect-link" href="https://stackoverflow.com/" target="_blank" rel="noreferrer">
+                <div><strong>Stack Overflow</strong><small>Questions and answers</small></div><i aria-hidden="true">&#8599;</i>
+              </a>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- ============================== CONTACT ============================== -->
+      <section class="contact section-dark" id="contact">
+        <div class="page-shell contact-inner">
+          <p class="section-label reveal">Contact</p>
+          <h2 class="reveal">Have a project <em>in mind?</em></h2>
+          <p class="contact-subtext reveal">Let's talk about what you're building next.</p>
+
+          <div class="contact-grid reveal">
+            <div>
+              <p>Email</p>
+              <div class="contact-value">
+                <a href="mailto:rastamrat402@gmail.com">rastamrat402@gmail.com</a>
+                <button
+                  class="copy-action"
+                  type="button"
+                  data-copy-contact
+                  data-copy-value="rastamrat402@gmail.com"
+                  data-copy-status-id="email-copy-status"
+                  data-copy-success="Email address copied to clipboard."
+                  data-copy-failure="Copying is unavailable. Use the email link instead."
+                >
+                  <span data-copy-label>Copy email</span><span data-copy-icon aria-hidden="true">&#10697;</span>
+                </button>
+              </div>
+              <p class="sr-only" id="email-copy-status" aria-live="polite"></p>
+            </div>
+            <div>
+              <p>Based in</p>
+              <div class="contact-value">
+                <span class="contact-location">Dire Dawa, Ethiopia</span>
+              </div>
+            </div>
+          </div>
+
+          <form
+            class="contact-form reveal"
+            data-contact-form
+            action="mailto:rastamrat402@gmail.com?subject=Portfolio%20enquiry"
+            method="post"
+            enctype="text/plain"
+            accept-charset="UTF-8"
+          >
+            <!--
+              ==========================================================
+              BACKEND HOOK (future): this form currently builds a
+              prefilled mailto: link to rastamrat402@gmail.com in script.js.
+              To use a real backend (Formspree, EmailJS, your API):
+                1. put your endpoint URL in data-endpoint below
+                2. in script.js find "BACKEND HOOK" and follow the notes
+              ==========================================================
+              data-endpoint="https://formspree.io/f/[YOUR FORM ID]"
+            -->
+            <label>
+              <span>Your name</span>
+              <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="80" required placeholder="Your name" aria-describedby="contact-name-error" />
+              <small class="field-error" id="contact-name-error" data-field-error="name" aria-live="polite"></small>
+            </label>
+            <label>
+              <span>Your email</span>
+              <input id="contact-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254" required placeholder="you@example.com" aria-describedby="contact-email-error" />
+              <small class="field-error" id="contact-email-error" data-field-error="email" aria-live="polite"></small>
+            </label>
+            <label class="form-message">
+              <span>Tell me about the project</span>
+              <textarea id="contact-message" name="message" rows="3" minlength="10" maxlength="1000" required spellcheck="true" placeholder="A short note about what you are building" aria-describedby="contact-message-hint contact-message-error"></textarea>
+              <small class="field-hint" id="contact-message-hint">10&ndash;1,000 characters</small>
+              <small class="field-error" id="contact-message-error" data-field-error="message" aria-live="polite"></small>
+            </label>
+            <p class="form-note">Submitting opens a ready-to-send message in your email app.</p>
+            <p class="form-status" data-form-status aria-live="polite"></p>
+            <button class="button button-light" type="submit" data-submit-button>
+              <span data-submit-label>Get in Touch</span><span aria-hidden="true">&#8599;</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- =============================== FOOTER =============================== -->
+    <footer class="site-footer section-dark">
+      <div class="page-shell footer-inner">
+        <a class="wordmark wordmark-light" href="#home" aria-label="Back to the top">TD<span>.</span></a>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#writing">Writing</a>
+          <a href="#connect">Connect</a>
+          <a href="#home">Back to top &uarr;</a>
+        </nav>
+        <p>&copy; 2026 Tamirat Dalasa. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
