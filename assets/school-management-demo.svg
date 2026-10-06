@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" role="img" aria-label="Demo preview of a school management dashboard">
+  <defs>
+    <clipPath id="win">
+      <rect x="40" y="40" width="1520" height="620" rx="18" />
+    </clipPath>
+    <style>
+      .t { font-family: "Hanken Grotesk", Arial, sans-serif; }
+      .lbl { font-size: 22px; font-weight: 600; fill: #11110f; }
+      .sub { font-size: 16px; fill: #3f3f3a; }
+      .nav { font-size: 17px; fill: rgba(255,255,255,.72); }
+      .nav-on { font-size: 17px; font-weight: 700; fill: #d9ff57; }
+      .th { font-size: 15px; font-weight: 700; fill: #3f3f3a; }
+      .td { font-size: 15px; fill: #3f3f3a; }
+      .num { font-size: 30px; font-weight: 700; fill: #11110f; }
+      .cap { font-size: 14px; fill: #6f6f68; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="700" fill="#f4f3ef" />
+
+  <g clip-path="url(#win)">
+    <!-- window -->
+    <rect x="40" y="40" width="1520" height="620" fill="#ffffff" />
+
+    <!-- browser chrome -->
+    <rect x="40" y="40" width="1520" height="58" fill="#f4f3ef" />
+    <line x1="40" y1="98" x2="1560" y2="98" stroke="rgba(17,17,15,.16)" />
+    <circle cx="76" cy="69" r="7" fill="#11110f" />
+    <circle cx="100" cy="69" r="7" fill="rgba(17,17,15,.32)" />
+    <circle cx="124" cy="69" r="7" fill="rgba(17,17,15,.16)" />
+    <rect x="170" y="55" width="520" height="28" rx="14" fill="#ffffff" stroke="rgba(17,17,15,.16)" />
+    <text class="t cap" x="192" y="74">school-management.example.com/dashboard</text>
+
+    <!-- sidebar -->
+    <rect x="40" y="98" width="284" height="562" fill="#11110f" />
+    <rect x="74" y="132" width="42" height="42" rx="12" fill="#2f5bff" />
+    <rect x="130" y="140" width="132" height="14" rx="7" fill="rgba(255,255,255,.9)" />
+    <rect x="130" y="162" width="86" height="10" rx="5" fill="rgba(255,255,255,.4)" />
+
+    <rect x="64" y="216" width="236" height="44" rx="12" fill="rgba(255,255,255,.08)" />
+    <rect x="64" y="230" width="4" height="16" rx="2" fill="#d9ff57" />
+    <text class="t nav-on" x="88" y="244">Dashboard</text>
+    <text class="t nav" x="88" y="300">Students</text>
+    <text class="t nav" x="88" y="352">Teachers</text>
+    <text class="t nav" x="88" y="404">Classes &amp; sections</text>
+    <text class="t nav" x="88" y="456">Attendance</text>
+    <text class="t nav" x="88" y="508">Fees &amp; payments</text>
+    <text class="t nav" x="88" y="560">Reports</text>
+    <rect x="64" y="600" width="236" height="1" fill="rgba(255,255,255,.16)" />
+    <circle cx="86" cy="632" r="16" fill="rgba(255,255,255,.16)" />
+    <rect x="114" y="626" width="104" height="12" rx="6" fill="rgba(255,255,255,.5)" />
+
+    <!-- main header -->
+    <text class="t lbl" x="372" y="156">Dashboard overview</text>
+      <text class="t sub" x="372" y="186">Academic year 2025 / 2026 · all campuses</text>
+    <rect x="1276" y="132" width="236" height="46" rx="23" fill="#2f5bff" />
+    <rect x="1310" y="150" width="168" height="10" rx="5" fill="rgba(255,255,255,.92)" />
+
+    <!-- stat cards -->
+    <g>
+      <rect x="372" y="222" width="352" height="128" rx="16" fill="#f4f3ef" stroke="rgba(17,17,15,.16)" />
+      <text class="t cap" x="400" y="258">Students enrolled</text>
+      <text class="t num" x="400" y="304">1,248</text>
+      <rect x="400" y="322" width="120" height="8" rx="4" fill="#2f5bff" />
+    </g>
+    <g>
+      <rect x="748" y="222" width="352" height="128" rx="16" fill="#f4f3ef" stroke="rgba(17,17,15,.16)" />
+      <text class="t cap" x="776" y="258">Teachers &amp; staff</text>
+      <text class="t num" x="776" y="304">86</text>
+      <rect x="776" y="322" width="84" height="8" rx="4" fill="#11110f" />
+    </g>
+    <g>
+      <rect x="1124" y="222" width="388" height="128" rx="16" fill="#f4f3ef" stroke="rgba(17,17,15,.16)" />
+      <text class="t cap" x="1152" y="258">Attendance today</text>
+      <text class="t num" x="1152" y="304">94%</text>
+      <rect x="1152" y="322" width="150" height="8" rx="4" fill="#d9ff57" />
+    </g>
+
+    <!-- table -->
+    <rect x="372" y="382" width="1140" height="44" rx="10" fill="#f4f3ef" />
+    <text class="t th" x="400" y="410">Student</text>
+    <text class="t th" x="760" y="410">Class</text>
+    <text class="t th" x="960" y="410">Guardian</text>
+    <text class="t th" x="1260" y="410">Status</text>
+
+    <g>
+      <rect x="372" y="440" width="1140" height="52" rx="10" fill="#ffffff" stroke="rgba(17,17,15,.16)" />
+      <circle cx="410" cy="466" r="14" fill="rgba(47,91,255,.18)" />
+      <rect x="438" y="458" width="180" height="16" rx="8" fill="rgba(17,17,15,.82)" />
+      <rect x="760" y="460" width="96" height="14" rx="7" fill="rgba(17,17,15,.3)" />
+      <rect x="960" y="460" width="150" height="14" rx="7" fill="rgba(17,17,15,.3)" />
+      <rect x="1260" y="454" width="112" height="26" rx="13" fill="#d9ff57" />
+      <rect x="1284" y="463" width="64" height="8" rx="4" fill="#11110f" />
+    </g>
+    <g>
+      <rect x="372" y="504" width="1140" height="52" rx="10" fill="#ffffff" stroke="rgba(17,17,15,.16)" />
+      <circle cx="410" cy="530" r="14" fill="rgba(17,17,15,.12)" />
+      <rect x="438" y="522" width="214" height="16" rx="8" fill="rgba(17,17,15,.82)" />
+      <rect x="760" y="524" width="78" height="14" rx="7" fill="rgba(17,17,15,.3)" />
+      <rect x="960" y="524" width="126" height="14" rx="7" fill="rgba(17,17,15,.3)" />
+      <rect x="1260" y="518" width="112" height="26" rx="13" fill="rgba(17,17,15,.1)" />
+      <rect x="1284" y="527" width="64" height="8" rx="4" fill="rgba(17,17,15,.5)" />
+    </g>
+    <g>
+      <rect x="372" y="568" width="1140" height="52" rx="10" fill="#ffffff" stroke="rgba(17,17,15,.16)" />
+      <circle cx="410" cy="594" r="14" fill="rgba(47,91,255,.18)" />
+      <rect x="438" y="586" width="164" height="16" rx="8" fill="rgba(17,17,15,.82)" />
+      <rect x="760" y="588" width="110" height="14" rx="7" fill="rgba(17,17,15,.3)" />
+      <rect x="960" y="588" width="140" height="14" rx="7" fill="rgba(17,17,15,.3)" />
+      <rect x="1260" y="582" width="112" height="26" rx="13" fill="#2f5bff" />
+      <rect x="1284" y="591" width="64" height="8" rx="4" fill="#ffffff" />
+    </g>
+  </g>
+
+  <rect x="40" y="40" width="1520" height="620" rx="18" fill="none" stroke="rgba(17,17,15,.16)" />
+</svg>

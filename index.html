@@ -206,21 +206,33 @@
             </div>
           </article>
 
-          <!--
-            ==================== CERTIFICATIONS ====================
-            Hidden until you need it. Delete the comment slashes around
-            the <article> below, fill in the [BRACKETS], and duplicate
-            the block for each extra certification.
+          <!-- ==================== CERTIFICATIONS ====================
+               DUPLICATE an <article class="timeline-row"> for each extra
+               certification. Update the year and swap the link for your
+               real credential URL (Udacity -> Me -> graduation requirements). -->
           <article class="timeline-row reveal">
-            <p><time>[YEAR]</time></p>
+            <p><time>2025</time></p>
             <div>
-              <h3>[CERT NAME]</h3>
-              <span>[ISSUER]</span>
-              <p>[Optional: one line about what the certification covers.]</p>
-              <a href="[CERTIFICATE LINK]" target="_blank" rel="noreferrer">View certificate &#8599;</a>
+              <h3>Web Development Nanodegree</h3>
+              <span>Udacity</span>
+              <p>HTML, CSS, JavaScript, responsive layouts, and building and deploying
+                real web projects.</p>
+              <!-- DEMO link: replace with your Udacity credential URL -->
+              <a href="https://www.udacity.com/" target="_blank" rel="noreferrer">View certificate &#8599;</a>
             </div>
           </article>
-          -->
+
+          <article class="timeline-row reveal">
+            <p><time>2025</time></p>
+            <div>
+              <h3>App Development Nanodegree</h3>
+              <span>Udacity</span>
+              <p>Mobile app development: UI design, data storage, networking, and publishing
+                apps to the app stores.</p>
+              <!-- DEMO link: replace with your Udacity credential URL -->
+              <a href="https://www.udacity.com/" target="_blank" rel="noreferrer">View certificate &#8599;</a>
+            </div>
+          </article>
         </div>
       </section>
 
@@ -251,11 +263,11 @@
             <article class="project-card reveal" id="project-professional-1">
               <div class="project-card-head">
                 <p class="project-meta">
-                  <span class="project-status">Live</span>
+                  <span class="project-status">In development</span>
                   <span><time>2025</time>&ndash;Present</span>
-                  <span>Full-stack development</span>
+                  <span>TypeScript &middot; Full-stack development</span>
                 </p>
-                <h4>Community Clinic Booking System</h4>
+                <h4>School Management System</h4>
                 <a class="project-link" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
                   <span class="project-link-label">Visit project</span> <span aria-hidden="true">&#8599;</span>
                 </a>
@@ -263,47 +275,31 @@
                 <p class="project-private">No public link</p> -->
               </div>
               <div class="project-card-body">
+                <!-- DEMO copy: full description coming later -->
                 <p class="project-description">
-                  A web app that lets patients book clinic appointments online while staff
-                  manage schedules, doctors, and patient records from one dashboard &mdash;
-                  replacing paper queues with a simple, searchable system.
+                  A school management platform for students, classes, attendance, and
+                  records &mdash; written primarily in TypeScript. Full write-up coming soon.
                 </p>
                 <ul class="tech-stack" aria-label="Tech stack">
-                  <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Node.js</li>
+                  <li>TypeScript</li><li>Node.js</li><li>HTML</li><li>CSS</li>
                 </ul>
                 <details class="project-details">
                   <summary>My contribution <span aria-hidden="true">+</span></summary>
-                  <p>Designed the database schema, built the booking flow and admin
-                    dashboard end-to-end, and deployed the app for a local clinic pilot.</p>
+                  <!-- DEMO copy: fill in later -->
+                  <p>Details coming soon.</p>
                 </details>
               </div>
-            </article>
-
-            <!-- Project 2 -->
-            <article class="project-card reveal" id="project-professional-2">
-              <div class="project-card-head">
-                <p class="project-meta">
-                  <span><time>2025</time></span>
-                  <span>Frontend development</span>
-                </p>
-                <h4>Local Business Landing Page</h4>
-                <!-- This card shows the "no public link" state - swap it for a real <a> when you have a URL -->
-                <p class="project-private">No public link</p>
-              </div>
-              <div class="project-card-body">
-                <p class="project-description">
-                  A fast, mobile-first marketing site for a local business, with a services
-                  catalogue, photo gallery, and a contact form that reaches the owner directly.
-                </p>
-                <ul class="tech-stack" aria-label="Tech stack">
-                  <li>HTML</li><li>CSS</li><li>JavaScript</li>
-                </ul>
-                <details class="project-details">
-                  <summary>My contribution <span aria-hidden="true">+</span></summary>
-                  <p>Owned the full build: responsive layout, accessibility passes, form
-                    handling, and handing the site over with edit instructions.</p>
-                </details>
-              </div>
+              <!-- DEMO image: replace assets/school-management-demo.svg
+                   with a real screenshot (e.g. assets/school-management.png) -->
+              <figure class="project-visual">
+                <img
+                  src="assets/school-management-demo.svg"
+                  alt="Demo preview of the School Management System dashboard"
+                  width="1600"
+                  height="700"
+                  loading="lazy"
+                />
+              </figure>
             </article>
           </div>
 
@@ -319,13 +315,42 @@
             <article class="project-tool reveal" id="project-personal-1">
               <p class="project-meta">
                 <span><time>2025</time></span>
-                <span>Personal project</span>
+                <span>Full-stack project</span>
               </p>
-              <h4>TaskFlow Mobile App</h4>
+              <h4>Queue Management System</h4>
+              <!-- DEMO copy: full description coming later -->
               <p class="project-description">
-                A cross-platform task manager with offline support, reminders, and
-                project boards &mdash; built to learn Flutter, state management, and
-                syncing data with a cloud backend.
+                A digital ticketing and queue system built with TypeScript &mdash; customers
+                take a token and follow their place in line in real time. Full write-up
+                coming soon.
+              </p>
+              <ul class="tech-stack" aria-label="Tech stack">
+                <li>TypeScript</li><li>Node.js</li><li>HTML</li><li>CSS</li>
+              </ul>
+              <div class="project-actions">
+                <a class="project-link" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
+                  <span class="project-link-label">View repository</span> <span aria-hidden="true">&#8599;</span>
+                </a>
+              </div>
+              <details class="project-details">
+                <summary>My contribution <span aria-hidden="true">+</span></summary>
+                <!-- DEMO copy: fill in later -->
+                <p>Details coming soon.</p>
+              </details>
+            </article>
+
+            <!-- Personal project 2 -->
+            <article class="project-tool reveal" id="project-personal-2">
+              <p class="project-meta">
+                <span class="project-status">In progress</span>
+                <span><time>2025</time></span>
+                <span>Mobile app</span>
+              </p>
+              <h4>Local Service Connector App</h4>
+              <!-- DEMO copy: full description coming later -->
+              <p class="project-description">
+                A Flutter app that connects people with local service providers &mdash;
+                browse, compare, and reach out in a few taps. Full write-up coming soon.
               </p>
               <ul class="tech-stack" aria-label="Tech stack">
                 <li>Flutter</li><li>Dart</li><li>Supabase</li>
@@ -337,36 +362,8 @@
               </div>
               <details class="project-details">
                 <summary>My contribution <span aria-hidden="true">+</span></summary>
-                <p>Designed the UI, implemented authentication and the offline-first data
-                  layer, and published test builds for Android and iOS.</p>
-              </details>
-            </article>
-
-            <!-- Personal project 2 -->
-            <article class="project-tool reveal" id="project-personal-2">
-              <p class="project-meta">
-                <span class="project-status">Open source</span>
-                <span><time>2024</time></span>
-                <span>Learning project</span>
-              </p>
-              <h4>Dev Tools CLI</h4>
-              <p class="project-description">
-                A small command-line tool that scaffolds projects, runs common scripts, and
-                keeps config files consistent &mdash; written to get comfortable with Node.js,
-                file handling, and packaging a release.
-              </p>
-              <ul class="tech-stack" aria-label="Tech stack">
-                <li>Node.js</li><li>JavaScript</li><li>Docker</li>
-              </ul>
-              <div class="project-actions">
-                <a class="project-link" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
-                  <span class="project-link-label">View repository</span> <span aria-hidden="true">&#8599;</span>
-                </a>
-              </div>
-              <details class="project-details">
-                <summary>My contribution <span aria-hidden="true">+</span></summary>
-                <p>Wrote the CLI commands and argument parsing, added tests, and wrote the
-                  README and usage examples for first-time contributors.</p>
+                <!-- DEMO copy: fill in later -->
+                <p>Details coming soon.</p>
               </details>
             </article>
           </div>
@@ -516,8 +513,10 @@
             <a class="connect-link reveal" href="https://github.com/Ethio-byte" target="_blank" rel="noreferrer">
               <div><strong>GitHub</strong><small>Code and repositories</small></div><i aria-hidden="true">&#8599;</i>
             </a>
-            <!-- DEMO: replace with your real LinkedIn profile URL -->
-            <a class="connect-link reveal" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <!-- DEMO: LinkedIn people-search by your email.
+                 Replace with your real profile URL once you have it:
+                 https://www.linkedin.com/in/YOUR-USERNAME -->
+            <a class="connect-link reveal" href="https://www.linkedin.com/search/results/people/?keywords=rastamrat402%40gmail.com" target="_blank" rel="noreferrer">
               <div><strong>LinkedIn</strong><small>Professional profile</small></div><i aria-hidden="true">&#8599;</i>
             </a>
             <!-- DEMO: replace with your real Twitter / X URL -->

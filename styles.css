@@ -829,6 +829,18 @@ body.menu-open .site-header { z-index: var(--z-menu-control); }
 .project-card-head, .project-card-body { min-width: 0; }
 .project-card-head .project-link, .project-card-head .project-private { margin-top: var(--space-base); }
 
+/* Demo / screenshot inside a project row (spans the whole card) */
+.project-visual {
+  grid-column: 1 / -1;
+  min-width: 0;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--paper);
+}
+.project-visual img { display: block; width: 100%; height: auto; }
+
 /* Personal project cards (2-up grid) */
 .tools-grid {
   display: grid;
