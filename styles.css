@@ -478,6 +478,13 @@ body.menu-open .site-header { z-index: var(--z-menu-control); }
   border-radius: var(--radius);
   background: #e6e5e0;
 }
+.portrait-wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
 /* Monogram placeholder — replaced the moment you add a real photo */
 .portrait-placeholder {
   width: 100%;
