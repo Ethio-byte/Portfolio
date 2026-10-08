@@ -357,7 +357,7 @@ if (contactForm) {
        BACKEND HOOK — the form has 2 modes:
 
        1. CURRENT (no backend): builds a prefilled mailto: link
-          to rastamrat402@gmail.com so the message opens in the visitor's
+          to tamratdalasa@gmail.com so the message opens in the visitor's
           email app. Nothing is sent to a server.
 
        2. FUTURE (with backend): add data-endpoint="https://..."
@@ -393,7 +393,7 @@ if (contactForm) {
 
     formStatus.textContent = 'Preparing your ready-to-send message.';
     requestAnimationFrame(() => {
-      window.location.href = `mailto:rastamrat402@gmail.com?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(body)}`;
+      window.location.href = `mailto:tamratdalasa@gmail.com?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(body)}`;
     });
     formResetTimer = window.setTimeout(() => {
       resetFormAction();
